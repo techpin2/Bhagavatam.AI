@@ -34,14 +34,17 @@ public class GameController : MonoBehaviour
     {
         if (scriptableData != null && scriptableData.datas.Count > 0)
         {
-            // Change background image
-            backgroundImage.sprite = scriptableData.datas[currentIndex].Background;
-            Debug.Log("Background Image Changed: " + scriptableData.datas[currentIndex].Background.name);
+            //// Change background image
+            //backgroundImage.sprite = scriptableData.datas[currentIndex].BackgroundImage;
+            //Debug.Log("Background Image Changed: " + scriptableData.datas[currentIndex].BackgroundImage.name);
+
+            // Change background color
+            backgroundImage.color = scriptableData.datas[currentIndex].BackgroundColor;
 
             // Change audio
-            audioSource.clip = scriptableData.datas[currentIndex].fluitAudio;
+            audioSource.clip = scriptableData.datas[currentIndex].FluitAudio;
             audioSource.Play();
-            Debug.Log("Audio Clip Changed: " + scriptableData.datas[currentIndex].fluitAudio.name);
+            Debug.Log("Audio Clip Changed: " + scriptableData.datas[currentIndex].FluitAudio.name);
         }
     }
 }

@@ -12,6 +12,7 @@ public class BGAudioData : ScriptableObject
 [Serializable]
 public class Data
 {
-    public Sprite Background;
-    public AudioClip fluitAudio;
+    public Sprite BackgroundImage;
+    public Color BackgroundColor;
+    public AudioClip FluitAudio;
 }

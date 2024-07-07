@@ -13,7 +13,12 @@ MonoBehaviour:
   m_Name: Data
   m_EditorClassIdentifier: 
   datas:
-  - Background: {fileID: 21300000, guid: a9274bdb9592a074695c7fe5356f9111, type: 3}
-    fluitAudio: {fileID: 8300000, guid: 83beb8367c75d434ca8988549c9d52b6, type: 3}
-  - Background: {fileID: 21300000, guid: 8e97023c5c682be409cfd4111b3ec9ab, type: 3}
-    fluitAudio: {fileID: 8300000, guid: b3bbb9c89fb0cec479c47e42a4ed3872, type: 3}
+  - BackgroundImage: {fileID: 0}
+    BackgroundColor: {r: 0, g: 0.6901961, b: 1, a: 1}
+    FluitAudio: {fileID: 8300000, guid: b3bbb9c89fb0cec479c47e42a4ed3872, type: 3}
+  - BackgroundImage: {fileID: 0}
+    BackgroundColor: {r: 0.96805966, g: 1, b: 0, a: 1}
+    FluitAudio: {fileID: 8300000, guid: 83beb8367c75d434ca8988549c9d52b6, type: 3}
+  - BackgroundImage: {fileID: 0}
+    BackgroundColor: {r: 0, g: 1, b: 0.24652767, a: 1}
+    FluitAudio: {fileID: 8300000, guid: 7b4d0c9d6ac92f34e87cc3b281900174, type: 3}
